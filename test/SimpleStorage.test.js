@@ -2,8 +2,7 @@ const SimpleStorage = artifacts.require('SimpleStorage');
 
 contract('SimpleStorage', (accounts) => {
     let instance = null;
-    return
-
+    return;
     accounts.forEach(account => {
         console.log(account);
     });

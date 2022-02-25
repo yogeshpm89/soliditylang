@@ -3,6 +3,7 @@ var expectThrow = require('./helper.js');
 
 
 contract("Coin", (accounts) => {
+    return;
     let instance = null;
     let owner = accounts[0]; 
     let user1 = accounts[1];
